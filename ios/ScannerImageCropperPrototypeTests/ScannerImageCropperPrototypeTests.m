@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface ScannerImageCropperPrototypeTests : XCTestCase
+@interface RectangleScannerImageExampleTests : XCTestCase
 
 @end
 
-@implementation ScannerImageCropperPrototypeTests
+@implementation RectangleScannerImageExampleTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

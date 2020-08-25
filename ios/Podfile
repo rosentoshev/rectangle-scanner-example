@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 def add_flipper_pods!(versions = {})
@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'ScannerImageCropperPrototype' do
-  # Pods for ScannerImageCropperPrototype
+target 'RectangleScannerImageExample' do
+  # Pods for RectangleScannerImageExample
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -82,7 +82,7 @@ target 'ScannerImageCropperPrototype' do
   pod 'react-native-perspective-image-cropper', :path => '../node_modules/react-native-perspective-image-cropper'
 
 
-  target 'ScannerImageCropperPrototypeTests' do
+  target 'RectangleScannerImageExampleTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -99,10 +99,10 @@ target 'ScannerImageCropperPrototype' do
   end
 end
 
-target 'ScannerImageCropperPrototype-tvOS' do
-  # Pods for ScannerImageCropperPrototype-tvOS
+target 'RectangleScannerImageExample-tvOS' do
+  # Pods for RectangleScannerImageExample-tvOS
 
-  target 'ScannerImageCropperPrototype-tvOSTests' do
+  target 'RectangleScannerImageExample-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ScannerImageCropperPrototype-tvOS.app"
-               BlueprintName = "ScannerImageCropperPrototype-tvOS"
-               ReferencedContainer = "container:ScannerImageCropperPrototype.xcodeproj">
+               BuildableName = "RectangleScannerImageExample-tvOS.app"
+               BlueprintName = "RectangleScannerImageExample-tvOS"
+               ReferencedContainer = "container:RectangleScannerImageExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ScannerImageCropperPrototype-tvOSTests.xctest"
-               BlueprintName = "ScannerImageCropperPrototype-tvOSTests"
-               ReferencedContainer = "container:ScannerImageCropperPrototype.xcodeproj">
+               BuildableName = "RectangleScannerImageExample-tvOSTests.xctest"
+               BlueprintName = "RectangleScannerImageExample-tvOSTests"
+               ReferencedContainer = "container:RectangleScannerImageExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ScannerImageCropperPrototype-tvOS.app"
-            BlueprintName = "ScannerImageCropperPrototype-tvOS"
-            ReferencedContainer = "container:ScannerImageCropperPrototype.xcodeproj">
+            BuildableName = "RectangleScannerImageExample-tvOS.app"
+            BlueprintName = "RectangleScannerImageExample-tvOS"
+            ReferencedContainer = "container:RectangleScannerImageExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ScannerImageCropperPrototype-tvOS.app"
-            BlueprintName = "ScannerImageCropperPrototype-tvOS"
-            ReferencedContainer = "container:ScannerImageCropperPrototype.xcodeproj">
+            BuildableName = "RectangleScannerImageExample-tvOS.app"
+            BlueprintName = "RectangleScannerImageExample-tvOS"
+            ReferencedContainer = "container:RectangleScannerImageExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

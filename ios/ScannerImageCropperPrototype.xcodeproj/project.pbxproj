@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ScannerImageCropperPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ScannerImageCropperPrototypeTests.m */; };
+		00E356F31AD99517003FC87E /* RectangleScannerImageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RectangleScannerImageExampleTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ScannerImageCropperPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ScannerImageCropperPrototypeTests.m */; };
-		39664B24080BB21601D75F7B /* libPods-ScannerImageCropperPrototype-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E23E33414213EDB5EFDC520F /* libPods-ScannerImageCropperPrototype-tvOSTests.a */; };
-		41CCA35E4442C3E781ADE293 /* libPods-ScannerImageCropperPrototype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD116D514DA7C9336ED0D6B /* libPods-ScannerImageCropperPrototype.a */; };
-		B7F62E194468A40F05B0E8B7 /* libPods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E46827DEFE8A52B83D7BEB /* libPods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.a */; };
-		C1A87EB6806599745285699B /* libPods-ScannerImageCropperPrototype-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8947C3A541431FACBEB25A7 /* libPods-ScannerImageCropperPrototype-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* RectangleScannerImageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RectangleScannerImageExampleTests.m */; };
+		39664B24080BB21601D75F7B /* libPods-RectangleScannerImageExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E23E33414213EDB5EFDC520F /* libPods-RectangleScannerImageExample-tvOSTests.a */; };
+		41CCA35E4442C3E781ADE293 /* libPods-RectangleScannerImageExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD116D514DA7C9336ED0D6B /* libPods-RectangleScannerImageExample.a */; };
+		B7F62E194468A40F05B0E8B7 /* libPods-RectangleScannerImageExample-RectangleScannerImageExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E46827DEFE8A52B83D7BEB /* libPods-RectangleScannerImageExample-RectangleScannerImageExampleTests.a */; };
+		C1A87EB6806599745285699B /* libPods-RectangleScannerImageExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8947C3A541431FACBEB25A7 /* libPods-RectangleScannerImageExample-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ScannerImageCropperPrototype;
+			remoteInfo = RectangleScannerImageExample;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ScannerImageCropperPrototype-tvOS";
+			remoteInfo = "RectangleScannerImageExample-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ScannerImageCropperPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerImageCropperPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* RectangleScannerImageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectangleScannerImageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ScannerImageCropperPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScannerImageCropperPrototypeTests.m; sourceTree = "<group>"; };
-		0F7A0326CDA9B3AE594EA4A0 /* Pods-ScannerImageCropperPrototype-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerImageCropperPrototype-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ScannerImageCropperPrototype-tvOS/Pods-ScannerImageCropperPrototype-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ScannerImageCropperPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerImageCropperPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ScannerImageCropperPrototype/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ScannerImageCropperPrototype/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RectangleScannerImageExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectangleScannerImageExampleTests.m; sourceTree = "<group>"; };
+		0F7A0326CDA9B3AE594EA4A0 /* Pods-RectangleScannerImageExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleScannerImageExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RectangleScannerImageExample-tvOS/Pods-RectangleScannerImageExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RectangleScannerImageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectangleScannerImageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RectangleScannerImageExample/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RectangleScannerImageExample/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ScannerImageCropperPrototype/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ScannerImageCropperPrototype/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ScannerImageCropperPrototype/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RectangleScannerImageExample/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RectangleScannerImageExample/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RectangleScannerImageExample/main.m; sourceTree = "<group>"; };
 		15F7708FCDB04F2CAC742C87 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		1B1F087AFDA5981828C1D4F5 /* Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.release.xcconfig"; path = "Target Support Files/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B1F087AFDA5981828C1D4F5 /* Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.release.xcconfig"; path = "Target Support Files/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		24EC25FA7F3F4FAC80C7C165 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		2CC8A71C9E364A25B543E897 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScannerImageCropperPrototype-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScannerImageCropperPrototype-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* RectangleScannerImageExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RectangleScannerImageExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* RectangleScannerImageExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RectangleScannerImageExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44ED0EB34FFC46B3BB884263 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		46F7E03FAFA043DA8E60C710 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		52D5BE01F23B4DFF80284F61 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		61E958A393E1D8E628387FAD /* Pods-ScannerImageCropperPrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerImageCropperPrototype.release.xcconfig"; path = "Target Support Files/Pods-ScannerImageCropperPrototype/Pods-ScannerImageCropperPrototype.release.xcconfig"; sourceTree = "<group>"; };
+		61E958A393E1D8E628387FAD /* Pods-RectangleScannerImageExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleScannerImageExample.release.xcconfig"; path = "Target Support Files/Pods-RectangleScannerImageExample/Pods-RectangleScannerImageExample.release.xcconfig"; sourceTree = "<group>"; };
 		669D6413116743349617FF4B /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		68FAA1D3895345F5A2A3778F /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		70E46827DEFE8A52B83D7BEB /* libPods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E46827DEFE8A52B83D7BEB /* libPods-RectangleScannerImageExample-RectangleScannerImageExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RectangleScannerImageExample-RectangleScannerImageExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA0445E24A6390B00F8621B /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		7FA0445F24A6390B00F8621B /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		7FA0446024A6390B00F8621B /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
@@ -83,22 +83,22 @@
 		7FA0446D24A6390B00F8621B /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		817F8393810F4CE193C9279C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		8B12B77C90744D988F8B79D6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		8C9DB8FE966FFBE4B3B06F5C /* Pods-ScannerImageCropperPrototype-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerImageCropperPrototype-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ScannerImageCropperPrototype-tvOS/Pods-ScannerImageCropperPrototype-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		9F0704E4BB40AA4AA0757588 /* Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A1A8C31D16B8798B21485614 /* Pods-ScannerImageCropperPrototype-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerImageCropperPrototype-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ScannerImageCropperPrototype-tvOSTests/Pods-ScannerImageCropperPrototype-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C9DB8FE966FFBE4B3B06F5C /* Pods-RectangleScannerImageExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleScannerImageExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RectangleScannerImageExample-tvOS/Pods-RectangleScannerImageExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		9F0704E4BB40AA4AA0757588 /* Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1A8C31D16B8798B21485614 /* Pods-RectangleScannerImageExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleScannerImageExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RectangleScannerImageExample-tvOSTests/Pods-RectangleScannerImageExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA0F3A8F3C4E474894CF98F1 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		BFB92A42F25346EAB64E6284 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		C2E40B63C4B4D85E7EE65252 /* Pods-ScannerImageCropperPrototype-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerImageCropperPrototype-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ScannerImageCropperPrototype-tvOSTests/Pods-ScannerImageCropperPrototype-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D0EB580349A94DB9ECA3155B /* Pods-ScannerImageCropperPrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerImageCropperPrototype.debug.xcconfig"; path = "Target Support Files/Pods-ScannerImageCropperPrototype/Pods-ScannerImageCropperPrototype.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E40B63C4B4D85E7EE65252 /* Pods-RectangleScannerImageExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleScannerImageExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RectangleScannerImageExample-tvOSTests/Pods-RectangleScannerImageExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0EB580349A94DB9ECA3155B /* Pods-RectangleScannerImageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleScannerImageExample.debug.xcconfig"; path = "Target Support Files/Pods-RectangleScannerImageExample/Pods-RectangleScannerImageExample.debug.xcconfig"; sourceTree = "<group>"; };
 		DB40C6431151424A90A992E0 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		DBE0A1C0B7D742BBB1055C41 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		DFD116D514DA7C9336ED0D6B /* libPods-ScannerImageCropperPrototype.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScannerImageCropperPrototype.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E23E33414213EDB5EFDC520F /* libPods-ScannerImageCropperPrototype-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScannerImageCropperPrototype-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD116D514DA7C9336ED0D6B /* libPods-RectangleScannerImageExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RectangleScannerImageExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23E33414213EDB5EFDC520F /* libPods-RectangleScannerImageExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RectangleScannerImageExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E43F634B8B43E5B13D73E3 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		ED9D479CC08E4BEF88426EA8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		F8947C3A541431FACBEB25A7 /* libPods-ScannerImageCropperPrototype-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScannerImageCropperPrototype-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8947C3A541431FACBEB25A7 /* libPods-RectangleScannerImageExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RectangleScannerImageExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F62E194468A40F05B0E8B7 /* libPods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.a in Frameworks */,
+				B7F62E194468A40F05B0E8B7 /* libPods-RectangleScannerImageExample-RectangleScannerImageExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41CCA35E4442C3E781ADE293 /* libPods-ScannerImageCropperPrototype.a in Frameworks */,
+				41CCA35E4442C3E781ADE293 /* libPods-RectangleScannerImageExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A87EB6806599745285699B /* libPods-ScannerImageCropperPrototype-tvOS.a in Frameworks */,
+				C1A87EB6806599745285699B /* libPods-RectangleScannerImageExample-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,20 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39664B24080BB21601D75F7B /* libPods-ScannerImageCropperPrototype-tvOSTests.a in Frameworks */,
+				39664B24080BB21601D75F7B /* libPods-RectangleScannerImageExample-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ScannerImageCropperPrototypeTests */ = {
+		00E356EF1AD99517003FC87E /* RectangleScannerImageExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ScannerImageCropperPrototypeTests.m */,
+				00E356F21AD99517003FC87E /* RectangleScannerImageExampleTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ScannerImageCropperPrototypeTests;
+			path = RectangleScannerImageExampleTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -154,7 +154,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ScannerImageCropperPrototype */ = {
+		13B07FAE1A68108700A75B9A /* RectangleScannerImageExample */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -165,20 +165,20 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ScannerImageCropperPrototype;
+			name = RectangleScannerImageExample;
 			sourceTree = "<group>";
 		};
 		227C169EBE1F0BDA9C798342 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D0EB580349A94DB9ECA3155B /* Pods-ScannerImageCropperPrototype.debug.xcconfig */,
-				61E958A393E1D8E628387FAD /* Pods-ScannerImageCropperPrototype.release.xcconfig */,
-				9F0704E4BB40AA4AA0757588 /* Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.debug.xcconfig */,
-				1B1F087AFDA5981828C1D4F5 /* Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.release.xcconfig */,
-				0F7A0326CDA9B3AE594EA4A0 /* Pods-ScannerImageCropperPrototype-tvOS.debug.xcconfig */,
-				8C9DB8FE966FFBE4B3B06F5C /* Pods-ScannerImageCropperPrototype-tvOS.release.xcconfig */,
-				C2E40B63C4B4D85E7EE65252 /* Pods-ScannerImageCropperPrototype-tvOSTests.debug.xcconfig */,
-				A1A8C31D16B8798B21485614 /* Pods-ScannerImageCropperPrototype-tvOSTests.release.xcconfig */,
+				D0EB580349A94DB9ECA3155B /* Pods-RectangleScannerImageExample.debug.xcconfig */,
+				61E958A393E1D8E628387FAD /* Pods-RectangleScannerImageExample.release.xcconfig */,
+				9F0704E4BB40AA4AA0757588 /* Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.debug.xcconfig */,
+				1B1F087AFDA5981828C1D4F5 /* Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.release.xcconfig */,
+				0F7A0326CDA9B3AE594EA4A0 /* Pods-RectangleScannerImageExample-tvOS.debug.xcconfig */,
+				8C9DB8FE966FFBE4B3B06F5C /* Pods-RectangleScannerImageExample-tvOS.release.xcconfig */,
+				C2E40B63C4B4D85E7EE65252 /* Pods-RectangleScannerImageExample-tvOSTests.debug.xcconfig */,
+				A1A8C31D16B8798B21485614 /* Pods-RectangleScannerImageExample-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -188,10 +188,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				DFD116D514DA7C9336ED0D6B /* libPods-ScannerImageCropperPrototype.a */,
-				70E46827DEFE8A52B83D7BEB /* libPods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.a */,
-				F8947C3A541431FACBEB25A7 /* libPods-ScannerImageCropperPrototype-tvOS.a */,
-				E23E33414213EDB5EFDC520F /* libPods-ScannerImageCropperPrototype-tvOSTests.a */,
+				DFD116D514DA7C9336ED0D6B /* libPods-RectangleScannerImageExample.a */,
+				70E46827DEFE8A52B83D7BEB /* libPods-RectangleScannerImageExample-RectangleScannerImageExampleTests.a */,
+				F8947C3A541431FACBEB25A7 /* libPods-RectangleScannerImageExample-tvOS.a */,
+				E23E33414213EDB5EFDC520F /* libPods-RectangleScannerImageExample-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -254,9 +254,9 @@
 			isa = PBXGroup;
 			children = (
 				7FA0445D24A6390B00F8621B /* Fonts */,
-				13B07FAE1A68108700A75B9A /* ScannerImageCropperPrototype */,
+				13B07FAE1A68108700A75B9A /* RectangleScannerImageExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ScannerImageCropperPrototypeTests */,
+				00E356EF1AD99517003FC87E /* RectangleScannerImageExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				227C169EBE1F0BDA9C798342 /* Pods */,
@@ -270,10 +270,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ScannerImageCropperPrototype.app */,
-				00E356EE1AD99517003FC87E /* ScannerImageCropperPrototypeTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* RectangleScannerImageExample.app */,
+				00E356EE1AD99517003FC87E /* RectangleScannerImageExampleTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* RectangleScannerImageExample-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* RectangleScannerImageExample-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,9 +281,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ScannerImageCropperPrototypeTests */ = {
+		00E356ED1AD99517003FC87E /* RectangleScannerImageExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ScannerImageCropperPrototypeTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RectangleScannerImageExampleTests" */;
 			buildPhases = (
 				F50705F9621A949836862E27 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -296,14 +296,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ScannerImageCropperPrototypeTests;
-			productName = ScannerImageCropperPrototypeTests;
-			productReference = 00E356EE1AD99517003FC87E /* ScannerImageCropperPrototypeTests.xctest */;
+			name = RectangleScannerImageExampleTests;
+			productName = RectangleScannerImageExampleTests;
+			productReference = 00E356EE1AD99517003FC87E /* RectangleScannerImageExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ScannerImageCropperPrototype */ = {
+		13B07F861A680F5B00A75B9A /* RectangleScannerImageExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ScannerImageCropperPrototype" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RectangleScannerImageExample" */;
 			buildPhases = (
 				4C9A97F2C71A8CD2CA076855 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -317,14 +317,14 @@
 			);
 			dependencies = (
 			);
-			name = ScannerImageCropperPrototype;
-			productName = ScannerImageCropperPrototype;
-			productReference = 13B07F961A680F5B00A75B9A /* ScannerImageCropperPrototype.app */;
+			name = RectangleScannerImageExample;
+			productName = RectangleScannerImageExample;
+			productReference = 13B07F961A680F5B00A75B9A /* RectangleScannerImageExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* RectangleScannerImageExample-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ScannerImageCropperPrototype-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RectangleScannerImageExample-tvOS" */;
 			buildPhases = (
 				DA0434CC005B7D147C09D803 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -337,14 +337,14 @@
 			);
 			dependencies = (
 			);
-			name = "ScannerImageCropperPrototype-tvOS";
-			productName = "ScannerImageCropperPrototype-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOS.app */;
+			name = "RectangleScannerImageExample-tvOS";
+			productName = "RectangleScannerImageExample-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* RectangleScannerImageExample-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* RectangleScannerImageExample-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ScannerImageCropperPrototype-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RectangleScannerImageExample-tvOSTests" */;
 			buildPhases = (
 				0884AC3BD2B743E21698DCD1 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -356,9 +356,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ScannerImageCropperPrototype-tvOSTests";
-			productName = "ScannerImageCropperPrototype-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOSTests.xctest */;
+			name = "RectangleScannerImageExample-tvOSTests";
+			productName = "RectangleScannerImageExample-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* RectangleScannerImageExample-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -388,7 +388,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ScannerImageCropperPrototype" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RectangleScannerImageExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -401,10 +401,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ScannerImageCropperPrototype */,
-				00E356ED1AD99517003FC87E /* ScannerImageCropperPrototypeTests */,
-				2D02E47A1E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* RectangleScannerImageExample */,
+				00E356ED1AD99517003FC87E /* RectangleScannerImageExampleTests */,
+				2D02E47A1E0B4A5D006451C7 /* RectangleScannerImageExample-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* RectangleScannerImageExample-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -473,7 +473,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ScannerImageCropperPrototype-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RectangleScannerImageExample-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -509,7 +509,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ScannerImageCropperPrototype-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RectangleScannerImageExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ScannerImageCropperPrototype/Pods-ScannerImageCropperPrototype-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RectangleScannerImageExample/Pods-RectangleScannerImageExample-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -565,7 +565,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScannerImageCropperPrototype/Pods-ScannerImageCropperPrototype-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RectangleScannerImageExample/Pods-RectangleScannerImageExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA0434CC005B7D147C09D803 /* [CP] Check Pods Manifest.lock */ = {
@@ -583,7 +583,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ScannerImageCropperPrototype-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RectangleScannerImageExample-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -596,7 +596,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -639,7 +639,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F50705F9621A949836862E27 /* [CP] Check Pods Manifest.lock */ = {
@@ -657,7 +657,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -709,7 +709,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ScannerImageCropperPrototypeTests.m in Sources */,
+				00E356F31AD99517003FC87E /* RectangleScannerImageExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,7 +735,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ScannerImageCropperPrototypeTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* RectangleScannerImageExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,12 +744,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ScannerImageCropperPrototype */;
+			target = 13B07F861A680F5B00A75B9A /* RectangleScannerImageExample */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ScannerImageCropperPrototype-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* RectangleScannerImageExample-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -761,7 +761,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ScannerImageCropperPrototype;
+			path = RectangleScannerImageExample;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -769,14 +769,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F0704E4BB40AA4AA0757588 /* Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.debug.xcconfig */;
+			baseConfigurationReference = 9F0704E4BB40AA4AA0757588 /* Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ScannerImageCropperPrototypeTests/Info.plist;
+				INFOPLIST_FILE = RectangleScannerImageExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -786,17 +786,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerImageCropperPrototype.app/ScannerImageCropperPrototype";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectangleScannerImageExample.app/RectangleScannerImageExample";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B1F087AFDA5981828C1D4F5 /* Pods-ScannerImageCropperPrototype-ScannerImageCropperPrototypeTests.release.xcconfig */;
+			baseConfigurationReference = 1B1F087AFDA5981828C1D4F5 /* Pods-RectangleScannerImageExample-RectangleScannerImageExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ScannerImageCropperPrototypeTests/Info.plist;
+				INFOPLIST_FILE = RectangleScannerImageExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -806,13 +806,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerImageCropperPrototype.app/ScannerImageCropperPrototype";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectangleScannerImageExample.app/RectangleScannerImageExample";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0EB580349A94DB9ECA3155B /* Pods-ScannerImageCropperPrototype.debug.xcconfig */;
+			baseConfigurationReference = D0EB580349A94DB9ECA3155B /* Pods-RectangleScannerImageExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -823,7 +823,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = ScannerImageCropperPrototype/Info.plist;
+				INFOPLIST_FILE = RectangleScannerImageExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -831,7 +831,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ScannerImageCropperPrototype;
+				PRODUCT_NAME = RectangleScannerImageExample;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -840,13 +840,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61E958A393E1D8E628387FAD /* Pods-ScannerImageCropperPrototype.release.xcconfig */;
+			baseConfigurationReference = 61E958A393E1D8E628387FAD /* Pods-RectangleScannerImageExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AU5HF944UZ;
-				INFOPLIST_FILE = ScannerImageCropperPrototype/Info.plist;
+				INFOPLIST_FILE = RectangleScannerImageExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -854,7 +854,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ScannerImageCropperPrototype;
+				PRODUCT_NAME = RectangleScannerImageExample;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -862,7 +862,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F7A0326CDA9B3AE594EA4A0 /* Pods-ScannerImageCropperPrototype-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 0F7A0326CDA9B3AE594EA4A0 /* Pods-RectangleScannerImageExample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -873,14 +873,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ScannerImageCropperPrototype-tvOS/Info.plist";
+				INFOPLIST_FILE = "RectangleScannerImageExample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ScannerImageCropperPrototype-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RectangleScannerImageExample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -890,7 +890,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C9DB8FE966FFBE4B3B06F5C /* Pods-ScannerImageCropperPrototype-tvOS.release.xcconfig */;
+			baseConfigurationReference = 8C9DB8FE966FFBE4B3B06F5C /* Pods-RectangleScannerImageExample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -901,14 +901,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ScannerImageCropperPrototype-tvOS/Info.plist";
+				INFOPLIST_FILE = "RectangleScannerImageExample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ScannerImageCropperPrototype-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RectangleScannerImageExample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -918,7 +918,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2E40B63C4B4D85E7EE65252 /* Pods-ScannerImageCropperPrototype-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = C2E40B63C4B4D85E7EE65252 /* Pods-RectangleScannerImageExample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -928,24 +928,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ScannerImageCropperPrototype-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "RectangleScannerImageExample-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ScannerImageCropperPrototype-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RectangleScannerImageExample-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerImageCropperPrototype-tvOS.app/ScannerImageCropperPrototype-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectangleScannerImageExample-tvOS.app/RectangleScannerImageExample-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1A8C31D16B8798B21485614 /* Pods-ScannerImageCropperPrototype-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A1A8C31D16B8798B21485614 /* Pods-RectangleScannerImageExample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -955,17 +955,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ScannerImageCropperPrototype-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "RectangleScannerImageExample-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ScannerImageCropperPrototype-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RectangleScannerImageExample-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerImageCropperPrototype-tvOS.app/ScannerImageCropperPrototype-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectangleScannerImageExample-tvOS.app/RectangleScannerImageExample-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1086,7 +1086,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ScannerImageCropperPrototypeTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RectangleScannerImageExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1095,7 +1095,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ScannerImageCropperPrototype" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RectangleScannerImageExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1104,7 +1104,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ScannerImageCropperPrototype-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RectangleScannerImageExample-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1113,7 +1113,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ScannerImageCropperPrototype-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RectangleScannerImageExample-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1122,7 +1122,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ScannerImageCropperPrototype" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RectangleScannerImageExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -11,8 +11,8 @@ function HomeScreen({navigation}) {
       }}>
       <Text>Home Screen</Text>
       <Button
-        title="Go to Document Scanner"
-        onPress={() => navigation.navigate('Document Scanner')}
+        title="Go to Rectangle Scanner"
+        onPress={() => navigation.navigate('Rectangle Scanner')}
       />
     </View>
   );

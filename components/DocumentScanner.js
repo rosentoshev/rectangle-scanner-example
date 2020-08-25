@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import Permissions from 'react-native-permissions';
-import PDFScanner from '@woonivers/react-native-document-scanner';
+import Scanner, {RectangleOverlay} from 'react-native-rectangle-scanner';
 import {Icon} from 'react-native-elements';
 import ImageEditor from './ImageEditor';
 import ImageCropper from './ImageCropper';
@@ -21,6 +21,18 @@ function DocumentScanner({navigation}) {
   const [allowed, setAllowed] = useState(false);
   const [lastDetectionType, setLastDetectionType] = useState('');
   const [stableCounter, setStableCounter] = useState('');
+  const [showScannerView, setShowScannerView] = useState(false);
+  const [device, setDevice] = useState({
+    initialized: false,
+    hasCamera: false,
+    permissionToUseCamera: false,
+    flashIsAvailable: false,
+    previewHeightPercent: 1,
+    previewWidthPercent: 1,
+  });
+  const [loadingCamera, setLoadingCamera] = useState(false);
+  const [processingImage, setProcessingImage] = useState(false);
+  const [detectedRectangle, setDetectedRectangle] = useState({});
 
   useEffect(() => {
     async function requestCamera() {
@@ -53,9 +65,10 @@ function DocumentScanner({navigation}) {
   }
   if (data.initialImage) {
     console.log('data', data);
+    console.log(detectedRectangle);
     navigation.navigate('Image Cropper', {
       imageParam: data.initialImage,
-      rectangleCoordinates: data.rectangleCoordinates,
+      rectangleCoordinates: detectedRectangle,
     });
     return (
       <React.Fragment>
@@ -90,22 +103,60 @@ function DocumentScanner({navigation}) {
     }
   }
 
+  // Hides the camera view. If the camera view was shown and onDeviceSetup was called,
+  // but no camera was found, it will not uninitialize the camera state.
+  function turnOffCamera(shouldUninitializeCamera = false) {
+    if (shouldUninitializeCamera && device.initialized) {
+      setShowScannerView(false);
+      setDevice({...device, initialized: false});
+    } else if (showScannerView) {
+      setShowScannerView(false);
+    }
+  }
+
+  // Will show the camera view which will setup the camera and start it.
+  // Expect the onDeviceSetup callback to be called
+  function turnOnCamera() {
+    if (!showScannerView) {
+      setShowScannerView(true);
+      setLoadingCamera(true);
+    }
+  }
+
+  function renderCameraView() {
+    if (this.state.showScannerView) {
+      const previewSize = this.getPreviewSize();
+      let rectangleOverlay = null;
+      if (!loadingCamera && !processingImage) {
+        rectangleOverlay = (
+          <RectangleOverlay
+            detectedRectangle={detectedRectangle}
+            previewRatio={previewSize}
+            backgroundColor="rgba(255,181,6, 0.2)"
+            borderColor="rgb(255,181,6)"
+            borderWidth={4}
+            allowDetection={false}
+          />
+        );
+      }
+    }
+  }
+
   return (
     <>
       <Text>Receipt Scanner</Text>
-      <PDFScanner
+      <Scanner
         useBase64={false}
         ref={scanner}
         style={styles.scanner}
         onPictureTaken={setData}
         overlayColor="rgba(255, 130, 0, 0.7)"
         enableTorch={false}
-        quality={0.5}
+        capturedQuality={0.5}
         manualOnly={true}
-        onRectangleDetect={({stableCounter, lastDetectionType}) => {
-          setStableCounter(stableCounter),
-            setLastDetectionType(lastDetectionType);
-        }}
+        onRectangleDetected={({detectedRectangle}) =>
+          setDetectedRectangle(detectedRectangle)
+        }
         detectionCountBeforeCapture={5000000}
         detectionRefreshRateInMs={5000}
       />

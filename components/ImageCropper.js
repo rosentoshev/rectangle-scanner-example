@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 import CustomCrop from 'react-native-perspective-image-cropper';
 import ImagePicker from 'react-native-image-crop-picker';
+import ImageViewer from './ImageViewer';
 import {
   responsiveScreenHeight,
   responsiveScreenWidth,
@@ -33,15 +34,19 @@ class ImageCropper extends Component {
 
     this.state = {
       image: '',
-      initialImage: route.params.imageParam,
-      rectangleCoordinates: route.params.rectangleCoordinates,
+      initialImage: this.props.imageParam,
+      rectangleCoordinates: this.props.rectangleCoordinates,
       imageWidth: DEFAULT_IMAGE_WIDTH,
       imageHeight: DEFAULT_IMAGE_HEIGHT,
+      imageViewed: false,
     };
   }
 
   componentDidMount() {
-    Image.getSize(this.props.route.params.imageParam, (width, height) => {
+    debugger
+    console.log('imageParam', this.props.imageParam);
+    console.log('rectangleCoordinates', this.props.rectangleCoordinates);
+    Image.getSize(this.props.imageParam, (width, height) => {
       this.setState({
         imageWidth: width,
         imageHeight: height,
@@ -55,52 +60,59 @@ class ImageCropper extends Component {
       rectangleCoordinates: newCoordinates,
     });
     if (this.state.image.length > 0) {
-      console.log(this.state.image);
-      this.props.navigation.navigate('Image Viewer', {
-        croppedImage: this.state.image,
-        imageHeight: this.state.imageHeight,
-        imageWidth: this.state.imageWidth,
+      this.setState({
+        imageViewed: true,
       });
     }
   }
 
   crop() {
-    console.log(this.customCrop);
     this.customCrop.crop();
   }
 
   render() {
-    console.log(this.state);
+    const {image, imageWidth, imageHeight} = this.state;
     return (
-      <SafeAreaView style={styles.safeArea}>
-        <View style={[styles.container]}>
-          <View style={{flex: 5}}>
-            <View style={styles.imageCropper}>
-              <CustomCrop
-                updateImage={this.updateImage.bind(this)}
-                rectangleCoordinates={this.state.rectangleCoordinates}
-                initialImage={this.state.initialImage}
-                height={this.state.imageHeight}
-                width={this.state.imageWidth}
-                ref={(ref) => (this.customCrop = ref)}
-                overlayColor="rgba(18,190,210, 1)"
-                overlayStrokeColor="rgba(20,190,210, 1)"
-                handlerColor="rgba(20,150,160, 1)"
-                enablePanStrict={false}
-              />
-            </View>
-          </View>
-          <View style={{flex: 1}}>
-            <TouchableHighlight
-              style={styles.cropButtonTouchable}
-              onPress={this.crop.bind(this)}>
-              <View style={styles.cropButton}>
-                <Text style={styles.cropButtonLabel}>Crop Image</Text>
+      <>
+        {this.state.imageViewed ? (
+          <ImageViewer
+            croppedImage={image}
+            imageWidth={imageWidth}
+            imageHeight={imageHeight}
+            onImageCropped={this.props.onImageCropped}
+          />
+        ) : (
+          <SafeAreaView style={styles.safeArea}>
+            <View style={[styles.container]}>
+              <View style={{flex: 5}}>
+                <View style={styles.imageCropper}>
+                  <CustomCrop
+                    updateImage={this.updateImage.bind(this)}
+                    rectangleCoordinates={this.state.rectangleCoordinates}
+                    initialImage={this.state.initialImage}
+                    height={this.state.imageHeight}
+                    width={this.state.imageWidth}
+                    ref={(ref) => (this.customCrop = ref)}
+                    overlayColor="rgba(18,190,210, 1)"
+                    overlayStrokeColor="rgba(20,190,210, 1)"
+                    handlerColor="rgba(20,150,160, 1)"
+                    enablePanStrict={false}
+                  />
+                </View>
               </View>
-            </TouchableHighlight>
-          </View>
-        </View>
-      </SafeAreaView>
+              <View style={{flex: 1}}>
+                <TouchableHighlight
+                  style={styles.cropButtonTouchable}
+                  onPress={this.crop.bind(this)}>
+                  <View style={styles.cropButton}>
+                    <Text style={styles.cropButtonLabel}>Crop Image</Text>
+                  </View>
+                </TouchableHighlight>
+              </View>
+            </View>
+          </SafeAreaView>
+        )}
+      </>
     );
   }
 }
