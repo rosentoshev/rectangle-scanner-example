@@ -1,6 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
   xmlns:tools="http://schemas.android.com/tools"
   package="com.RectangleScannerImageExample"
+=======
+  package="com.scannerimagecropperprototype"
+  xmlns:tools="http://schemas.android.com/tools"
+>>>>>>> 4e0324f8bcb5eb98391d0db7bc3e537aa4cc6ab7
 >
 
     <uses-permission android:name="android.permission.INTERNET" />
