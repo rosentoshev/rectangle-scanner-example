@@ -24,7 +24,7 @@
     "react-native-gesture-handler": "^1.6.1",
     "react-native-image-crop-picker": "^0.32.0",
     "react-native-permissions": "^2.1.5",
-    "react-native-perspective-image-cropper": "^0.4.3",
+    "react-native-perspective-image-cropper": "https://github.com/rosenexpend/react-native-perspective-image-cropper",
     "react-native-reanimated": "^1.9.0",
     "react-native-rectangle-scanner": "^1.0.10",
     "react-native-responsive": "^1.0.2",

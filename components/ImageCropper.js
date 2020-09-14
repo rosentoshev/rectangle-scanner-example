@@ -43,7 +43,6 @@ class ImageCropper extends Component {
   }
 
   componentDidMount() {
-    debugger
     console.log('imageParam', this.props.imageParam);
     console.log('rectangleCoordinates', this.props.rectangleCoordinates);
     Image.getSize(this.props.imageParam, (width, height) => {
@@ -59,6 +58,7 @@ class ImageCropper extends Component {
       image,
       rectangleCoordinates: newCoordinates,
     });
+    console.log(image);
     if (this.state.image.length > 0) {
       this.setState({
         imageViewed: true,
